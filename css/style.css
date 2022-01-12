@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    background-color: aqua;
+    width: 100%;
+    float: left;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.logo-part{
+   width: 33.33%;
+   background-color: seagreen;
+   float: left;
+}
+.menu-part{
+   width: 33.33% ;
+   background-color: tomato;
+   float: left;
+}
+ul li{
+   display: inline-block; 
+   margin: 12px;;
+}
+ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+
+
+}
+.search-part{
+   width: 33.33%;
+   background-color: yellow;
+   float: left;
+}
+#hero{
+    width: 100%;
+    float: left;
+}
+.main-part{
+    width: 50%;
+    float: left;
+}
+.img-part{
+    width: 50%;
+    float: left;
+}
